@@ -1,0 +1,95 @@
+header {
+    background-color: #ffcc00;
+    padding: 15px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    background-color: #3d361a; 
+    color: white;
+    border-radius: 5px; 
+}
+
+.merienda-category {
+    background-color: #fff9e6; 
+    padding: 40px 20px;
+}
+
+.category-title h2 {
+    font-size: 32px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.category-title p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+.recipe-list.merienda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card h3 {
+    font-size: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.recipe-card p {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.recipe-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
